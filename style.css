@@ -118,6 +118,11 @@ background: url(HeaderBackground.svg);
     text-align: left;
     color: white;
     margin-top: 32px;
+    margin-left: 5px;
+}
+.navigation_links {
+    display: flex;
+    list-style-type: none;
 }
 .navigation_item {
     font-family: Aleo;
@@ -131,7 +136,8 @@ background: url(HeaderBackground.svg);
     margin-left: 40px;
 }
 .links {
-    margin-top: 32px;
+    display: flex;
+    align-items: center;
 }
 .content_1 {
     background: url(WhyBackground.svg);
