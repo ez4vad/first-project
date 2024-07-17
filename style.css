@@ -40,9 +40,11 @@ background: url(HeaderBackground.svg);
     border: none;
     cursor: pointer;
   }
-  
+input {
+    padding-left: 36px;
+}
 .header_input {
-    width: 647px;
+    width: 611px;
     height: 60px;
     font-family: Josefin Sans;
     font-size: 14px;
@@ -134,6 +136,10 @@ background: url(HeaderBackground.svg);
     text-decoration: none;
     color: white;
     margin-left: 40px;
+}
+.navigation_item:hover {
+    color: white;
+    font-weight: 400;
 }
 .links {
     display: flex;
@@ -433,7 +439,67 @@ background: url(HeaderBackground.svg);
 .footer_links {
     display: flex;
     justify-content: center;
+    list-style-type: none;
 }
 .footer_item {
     margin-right: 32px;
+}
+
+.line{
+    position: absolute;
+    max-width: 850px;
+    height: 90px;
+    top: 1710px;
+    gap: 0px;
+    border: 1px 0px 0px 0px white;
+}
+.twitter {
+    width: 32px;
+    height: 32px;
+    fill: white;
+    margin-right: 32px;
+}
+.twitter:hover {
+    stroke: lightskyblue;
+    fill: lightskyblue;
+}
+.face {
+    width: 20px;
+    height: 32px;
+    fill: white;
+    margin-right: 32px;
+}
+.face:hover {
+    stroke: blue;
+    fill: blue;
+}
+.linkedin {
+    width: 28px;
+    height: 32px;
+    fill: white;
+    margin-right: 32px;
+}
+.linkedin:hover {
+    stroke: #5373FD;
+    fill: #5373FD;
+}
+.youtube {
+    width: 36px;
+    height: 32px;
+    fill: white;
+    margin-right: 32px;
+}
+.youtube:hover {
+    stroke: red;
+    fill: red;
+}
+.pinterest {
+    width: 31px;
+    height: 32px;
+    fill: white;
+    margin-right: 32px;
+}
+.pinterest:hover {
+    stroke: red;
+    fill: red;
 }
